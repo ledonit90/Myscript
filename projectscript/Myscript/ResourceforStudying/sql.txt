@@ -1,3 +1,0 @@
-Some increadiable Link:
-- https://tungnt.net/toi-uu-hoa-co-so-du-lieu-sql-server-performance-tuning-and-optimization-microsoft-sql-database/
-- https://ola.hallengren.com/downloads.html

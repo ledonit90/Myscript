@@ -1,2 +1,0 @@
-runas /user:Administrator
-reg add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\testADD"
