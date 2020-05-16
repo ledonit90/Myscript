@@ -1,0 +1,7 @@
+SET ANSI_NULLS ON:
+    - để sử dụng lệnh <> hoặc = để so sánh với NULL, nếu đặt ở chế độ OF thì phải sử dụng IS hoặc NOT IS
+SET QUOTED_IDENTIFIER ON
+    - nếu đặt on thì các ký tự nằm trong ngoặc kép sẽ được coi là 1 identifier (about identifier). Ví dụ: SELECT * FROM "abc" WHERE "field1" = 'sss'. abc ở đây sẽ được hiểu là 1 bảng và field1 hiểu là 1 trường
+    - nếu đặt là off thì các ký tự trong ngoặc kép là chuỗi ký tự. ví dụ ở trên sẽ ko thực thi được vì abc được hiểu là chuỗi. Câu lệnh phải là SELECT * FROM abc WHERE field1 = "sss"
+SET ANSI_PADDING ON
+	- là cách hiển thị dữ liệu trong mỗi cột. Mỗi cột có kiểu varchar, char, binary đều cần được định nghĩa độ rộng (size). Như vậy gt thực tế có thể có size nhỏ hơn định nghĩa. Nếu đặt ON thì cột sẽ được thể hiện giá trị thực. Còn nếu đặt OFF thì cột sẽ thể hiện [giá trị thực + thêm các space] sao cho thể hiện hết size được định nghĩa.
