@@ -1,0 +1,2 @@
+DBCC SHOWCONTIG  --- https://stackoverflow.com/questions/496822/in-sql-server-how-do-you-determine-the-number-of-rows-per-page
+DBCC DROPCLEANBUFFERS - https://qastack.vn/dba/40141/is-high-extent-fragmentation-a-problem
